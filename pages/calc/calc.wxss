@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    font-family: "Microsoft YaHei";
+    overflow-x: hidden;
+    padding: 0;
+}
+.screen  {
+    text-align: right;
+    width: 100%;
+    height: 200rpx;
+    line-height: 200rpx;
+    padding: 0 10rpx;
+    font-weight: bold;
+    font-size: 60px;
+    box-sizing: border-box;
+    border-top: 1px solid #fff;
+}
+.keyboard {
+    width: 100%;
+    flex: 1;
+}
+.btnGroup {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: #fff;
+}
+.key {
+    text-align: center;
+    color: white;
+    margin-top: 1px;
+    margin-right: 1px;
+}
+.funkey {
+    background-color: orange;
+}
+.numkey {
+    background-color: #0088cf;
+}
+.k1 {
+    flex: 1;
+}
+.k2 {
+    flex: 2;
+}

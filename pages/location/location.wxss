@@ -1,0 +1,7 @@
+#map {
+    padding: 0;
+}
+#map map {
+    width: 750rpx;
+    height: 1020rpx;
+}

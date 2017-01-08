@@ -1,0 +1,3 @@
+<scroll-view id="map" class="container" scroll-y="true">
+    <map longitude="{{location.longitude}}" latitude="{{location.latitude}}" scale="16" markers="{{markers}}"></map>
+</scroll-view>

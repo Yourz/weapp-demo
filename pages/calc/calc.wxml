@@ -1,0 +1,34 @@
+<view id="calc" class="container">
+    <view class="screen">{{screenData}}</view>
+    <view class="keyboard">
+        <view class="btnGroup">
+            <view class="key k1 funkey" bindtap="clickBtn" id="c">C</view>
+            <view class="key k1 funkey" bindtap="clickBtn" id="b">←</view>
+            <view class="key k1 funkey" bindtap="history" id="h">H</view>
+            <view class="key k1 funkey" bindtap="clickBtn" id="+">+</view>
+        </view>
+        <view class="btnGroup">
+            <view class="key k1 numkey" bindtap="clickBtn" id="9">9</view>
+            <view class="key k1 numkey" bindtap="clickBtn" id="8">8</view>
+            <view class="key k1 numkey" bindtap="clickBtn" id="7">7</view>
+            <view class="key k1 funkey" bindtap="clickBtn" id="-">-</view>
+        </view>
+        <view class="btnGroup">
+            <view class="key k1 numkey" bindtap="clickBtn" id="6">6</view>
+            <view class="key k1 numkey" bindtap="clickBtn" id="5">5</view>
+            <view class="key k1 numkey" bindtap="clickBtn" id="4">4</view>
+            <view class="key k1 funkey" bindtap="clickBtn" id="×">×</view>
+        </view>
+        <view class="btnGroup">
+            <view class="key k1 numkey" bindtap="clickBtn" id="3">3</view>
+            <view class="key k1 numkey" bindtap="clickBtn" id="2">2</view>
+            <view class="key k1 numkey" bindtap="clickBtn" id="1">1</view>
+            <view class="key k1 funkey" bindtap="clickBtn" id="÷">÷</view>
+        </view>
+        <view class="btnGroup">
+            <view class="key k2 numkey" bindtap="clickBtn" id="0">0</view>
+            <view class="key k1 numkey" bindtap="clickBtn" id=".">.</view>
+            <view class="key k1 funkey" bindtap="clickBtn" id="=">=</view>
+        </view>
+    </view>
+</view>

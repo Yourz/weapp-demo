@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/location/location",
+    "pages/calc/calc",
+    "pages/history/history"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/location/location",
+      "text": "定位"
+    },{
+      "pagePath": "pages/calc/calc",
+      "text": "计算器"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "debug": true
+}
